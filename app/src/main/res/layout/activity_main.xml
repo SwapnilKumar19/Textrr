@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/cameraclick" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearButton"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_below="@+id/imageView">
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/captureImage"
+            android:layout_weight="1"
+            android:text="@string/capture_image"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/button_background"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:textSize="18sp"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/detect_text"
+            android:layout_weight="1"
+            android:id="@+id/detectText"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/button_background"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="382dp"
+        android:layout_height="213dp"
+        android:layout_above="@+id/buttonSpeak"
+        android:layout_below="@id/linearButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="36dp"
+        android:background="@android:color/transparent"
+        android:gravity="top"
+        android:hint="@string/detected_text"
+        android:inputType="textMultiLine"
+        android:padding="10dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonSpeak"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="13dp"
+        android:background="@drawable/button_background"
+        android:text="@string/speak_out"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+</RelativeLayout>

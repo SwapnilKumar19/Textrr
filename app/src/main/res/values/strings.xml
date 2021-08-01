@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Textrr</string>
+    <string name="capture_image">Capture Image</string>
+    <string name="detect_text">Detect Text</string>
+    <string name="detected_text">Detected text will appear here</string>
+    <string name="speak_out">Speak Out</string>
+</resources>

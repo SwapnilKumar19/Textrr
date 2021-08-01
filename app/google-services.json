@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "434302599548",
+    "project_id": "textrr-1907",
+    "storage_bucket": "textrr-1907.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434302599548:android:60b2582e75bace34a0a4f9",
+        "android_client_info": {
+          "package_name": "com.androiddev.textrr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "434302599548-1lp7qj55cq95ghsbdleo3n2dfg2vqgfs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1cEQvJl2nsL6ZKIiLsKSlV6x22Yiz3iM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "434302599548-1lp7qj55cq95ghsbdleo3n2dfg2vqgfs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
